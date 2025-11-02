@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+  <title>Trapani x Grand | Hyatt Kuwait</title>
+
+  <!-- Swiper CSS -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
+
+  <style>
+    html, body {
+      position: relative;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background: #fff;
+    }
+
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #fff;
+    }
+
+    .swiper-slide img {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+      max-height: 100vh;
+      -webkit-user-select: none;
+      user-select: none;
+    }
+  </style>
+</head>
+<body>
+  <!-- Swiper -->
+  <div class="swiper">
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="images/1.webp" alt="1"></div>
+      <div class="swiper-slide"><img src="images/2.webp" alt="2"></div>
+      <div class="swiper-slide"><img src="images/3.webp" alt="3"></div>
+      <div class="swiper-slide"><img src="images/4.webp" alt="4"></div>
+      <div class="swiper-slide"><img src="images/5.webp" alt="5"></div>
+      <div class="swiper-slide"><img src="images/6.webp" alt="6"></div>
+      <div class="swiper-slide"><img src="images/7.webp" alt="7"></div>
+      <div class="swiper-slide"><img src="images/8.webp" alt="8"></div>
+      <div class="swiper-slide"><img src="images/9.webp" alt="9"></div>
+      <div class="swiper-slide"><img src="images/10.webp" alt="10"></div>
+      <div class="swiper-slide"><img src="images/11.webp" alt="11"></div>
+      <div class="swiper-slide"><img src="images/12.webp" alt="12"></div>
+      <div class="swiper-slide"><img src="images/13.webp" alt="13"></div>
+      <div class="swiper-slide"><img src="images/14.webp" alt="14"></div>
+      <div class="swiper-slide"><img src="images/15.webp" alt="15"></div>
+      <div class="swiper-slide"><img src="images/16.webp" alt="16"></div>
+      <div class="swiper-slide"><img src="images/17.webp" alt="17"></div>
+      <div class="swiper-slide"><img src="images/18.webp" alt="18"></div>
+      <div class="swiper-slide"><img src="images/19.webp" alt="19"></div>
+      <div class="swiper-slide"><img src="images/20.webp" alt="20"></div>
+      <div class="swiper-slide"><img src="images/21.webp" alt="21"></div>
+      <div class="swiper-slide"><img src="images/22.webp" alt="22"></div>
+      <div class="swiper-slide"><img src="images/23.webp" alt="23"></div>
+      <div class="swiper-slide"><img src="images/24.webp" alt="24"></div>
+      <div class="swiper-slide"><img src="images/25.webp" alt="25"></div>
+      <div class="swiper-slide"><img src="images/26.webp" alt="26"></div>
+      <div class="swiper-slide"><img src="images/27.webp" alt="27"></div>
+      <div class="swiper-slide"><img src="images/28.webp" alt="28"></div>
+      <div class="swiper-slide"><img src="images/29.webp" alt="29"></div>
+      <div class="swiper-slide"><img src="images/30.webp" alt="30"></div>
+      <div class="swiper-slide"><img src="images/31.webp" alt="31"></div>
+      <div class="swiper-slide"><img src="images/32.webp" alt="32"></div>
+      <div class="swiper-slide"><img src="images/33.webp" alt="33"></div>
+      <div class="swiper-slide"><img src="images/34.webp" alt="34"></div>
+      <div class="swiper-slide"><img src="images/35.webp" alt="35"></div>
+      <div class="swiper-slide"><img src="images/36.webp" alt="36"></div>
+      <div class="swiper-slide"><img src="images/37.webp" alt="37"></div>
+      <div class="swiper-slide"><img src="images/38.webp" alt="38"></div>
+      <div class="swiper-slide"><img src="images/39.webp" alt="39"></div>
+      <div class="swiper-slide"><img src="images/40.webp" alt="40"></div>
+      <div class="swiper-slide"><img src="images/41.webp" alt="41"></div>
+      <div class="swiper-slide"><img src="images/42.webp" alt="42"></div>
+      <div class="swiper-slide"><img src="images/43.webp" alt="43"></div>
+      <!-- Add more slides as needed -->
+    </div>
+
+    <!-- Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const swiper = new Swiper('.swiper', {
+        direction: 'horizontal',
+        loop: false,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+        lazy: true,
+        grabCursor: true,
+        centeredSlides: true,
+        spaceBetween: 0,
+        allowTouchMove: true,
+        slidesPerView: 1,
+      });
+    });
+  </script>
+</body>
+</html>
