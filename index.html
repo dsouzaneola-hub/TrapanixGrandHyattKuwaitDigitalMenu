@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
   <title>Menu | Language Selection</title>
   <style>
     html, body {
@@ -11,15 +11,21 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      font-family: 'Helvetica Neue', sans-serif;
-      background: url('images/Language.webp') no-repeat center center;
-      background-size: cover;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      font-family: 'Times New Roman', serif;
+      background: url('images/Language.webp');
+      background-repeat: no-repeat;         
+      background-position: center center;    
+      background-size: contain;
     }
 
     .container {
       text-align: center;
       animation: fadeIn 1s ease;
       background: rgba(255, 255, 255, 0.6); /* optional: semi-transparent overlay for readability */
+      max-width: 80%;
       padding: 2rem;
       border-radius: 16px;
     }
@@ -27,7 +33,7 @@
     h1 {
       font-size: 1.5rem;
       margin-bottom: 2rem;
-      color: #333;
+      color: #0f2d1b;
     }
 
     .buttons {
@@ -37,8 +43,8 @@
     }
 
     .btn {
-      background-color: #000;
-      color: #fff;
+      background-color: #0f2d1b;
+      color: #9a8d68;
       border: none;
       border-radius: 12px;
       padding: 1rem 2rem;
@@ -49,11 +55,7 @@
 
     .btn:hover {
       background-color: #444;
-    }
-
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(20px); }
-      to { opacity: 1; transform: translateY(0); }
+    
     }
   </style>
 </head>
